@@ -1,0 +1,22 @@
+{"timestamp":"2025-08-05T14:28:12.429677","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T14:28:12.430152","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_utilisateurs.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T14:28:12.459405Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.459793Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.460033Z","level":"info","event":"Current task name:chargement","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.460135Z","level":"info","event":"Dag name:etl_utilisateurs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.462331Z","level":"info","event":"💾 Chargement des utilisateurs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468011Z","level":"info","event":"                       name                      email           ville","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468270Z","level":"info","event":"0             Leanne Graham          Sincere@april.biz     Gwenborough","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468376Z","level":"info","event":"1              Ervin Howell          Shanna@melissa.tv     Wisokyburgh","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468447Z","level":"info","event":"2          Clementine Bauch         Nathan@yesenia.net   McKenziehaven","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468507Z","level":"info","event":"3          Patricia Lebsack  Julianne.OConner@kory.org     South Elvis","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468564Z","level":"info","event":"4          Chelsey Dietrich   Lucio_Hettinger@annie.ca      Roscoeview","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468620Z","level":"info","event":"5      Mrs. Dennis Schulist    Karley_Dach@jasper.info   South Christy","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468673Z","level":"info","event":"6           Kurtis Weissnat     Telly.Hoeger@billy.biz       Howemouth","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468715Z","level":"info","event":"7  Nicholas Runolfsdottir V       Sherwood@rosamond.me       Aliyaview","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468761Z","level":"info","event":"8           Glenna Reichert    Chaim_McDermott@dana.io  Bartholomebury","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468805Z","level":"info","event":"9        Clementina DuBuque     Rey.Padberg@karina.biz     Lebsackbury","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.468120","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-05T14:28:12.500406Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.500726Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:28:12.500888Z","level":"info","event":"Task operator:<Task(PythonOperator): chargement>","chan":"stdout","logger":"task"}

@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-05T14:23:01.412033","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T14:23:01.412462","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_utilisateurs.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T14:23:01.449986Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:23:01.450621Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:23:01.450954Z","level":"info","event":"Current task name:transformation","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:23:01.451068Z","level":"info","event":"Dag name:etl_utilisateurs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:23:01.452078Z","level":"info","event":"🔧 Transformation des utilisateurs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:23:01.478829","level":"warning","event":"/opt/airflow/dags/scripts/transformation.py:9: SettingWithCopyWarning: \nA value is trying to be set on a copy of a slice from a DataFrame\n\nSee the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy\n  df_transforme.rename(columns={\"address.city\": \"ville\"}, inplace=True)\n","logger":"py.warnings"}
+{"timestamp":"2025-08-05T14:23:01.480363","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-05T14:23:01.497529Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:23:01.497841Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:23:01.498101Z","level":"info","event":"Task operator:<Task(PythonOperator): transformation>","chan":"stdout","logger":"task"}

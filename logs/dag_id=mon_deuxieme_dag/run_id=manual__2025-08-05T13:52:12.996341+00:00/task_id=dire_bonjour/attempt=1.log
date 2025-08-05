@@ -1,0 +1,11 @@
+{"timestamp":"2025-08-05T13:52:14.564314","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T13:52:14.564902","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/mon_deuxieme_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T13:52:14.608751Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T13:52:14.609139Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T13:52:14.609608Z","level":"info","event":"Current task name:dire_bonjour","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T13:52:14.609893Z","level":"info","event":"Dag name:mon_deuxieme_dag","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T13:52:14.611679Z","level":"info","event":"Bonjour 👋","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T13:52:14.612094","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-05T13:52:14.638511Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T13:52:14.638829Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T13:52:14.639091Z","level":"info","event":"Task operator:<Task(PythonOperator): dire_bonjour>","chan":"stdout","logger":"task"}

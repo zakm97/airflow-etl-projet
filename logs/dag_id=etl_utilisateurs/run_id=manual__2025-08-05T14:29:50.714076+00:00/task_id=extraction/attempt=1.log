@@ -1,0 +1,12 @@
+{"timestamp":"2025-08-05T14:29:51.578243","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-05T14:29:51.578797","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_utilisateurs.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-05T14:29:51.614685Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:29:51.614896Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:29:51.615180Z","level":"info","event":"Current task name:extraction","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:29:51.615374Z","level":"info","event":"Dag name:etl_utilisateurs","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:29:51.617174Z","level":"info","event":"📡 Extraction des utilisateurs depuis l'API","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:29:51.828959Z","level":"info","event":"la taille des Données extraites est bien :  10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:29:51.829410","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-08-05T14:29:51.848213Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:29:51.848464Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-05T14:29:51.848618Z","level":"info","event":"Task operator:<Task(PythonOperator): extraction>","chan":"stdout","logger":"task"}
